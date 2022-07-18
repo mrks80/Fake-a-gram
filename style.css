@@ -1,0 +1,442 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    margin: 0;
+}
+
+/* =================================================================================================================
+
+Header
+
+====================================================================================================================
+ */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #888;
+    padding: 0 10% 0 10%;
+}
+
+header h1 {
+    font-family: 'Kaushan Script', sans-serif;
+    font-size: 2.5rem;
+}
+
+header input {
+    width: 17rem;
+    height: 2.25rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 2px solid lightgray;
+}
+
+header img {
+    margin-right: 1rem;
+}
+
+.header_profile {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+main {
+    background-color: #fafafa;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+/* =================================================================================================================
+
+Content
+
+====================================================================================================================
+ */
+
+#content {
+    max-width: 31.25rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.follower_content {
+    margin-bottom: 1rem;
+    border: 1px solid #888;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.follower_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.follower_header_left {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+
+.follower_header_left a {
+    text-decoration: none;
+    color: #000;
+}
+
+.follower_header_left img {
+    height: 3rem;
+    width: 3rem;
+    border: 2px solid #f4359e;
+    border-radius: 100%;
+    object-fit: contain;
+    margin-right: 0.5rem;
+}
+
+.follower_header_right {
+    display: flex;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.follower_image img {
+    width: 100%;
+    min-height: 31.25rem;
+    object-fit: cover;
+}
+
+.follower_footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+}
+
+.icons_left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 7.5rem;
+    cursor: pointer;
+}
+
+.icon_right {
+    cursor: pointer;
+}
+
+.like {
+    margin: 0 0 1rem 0.5rem;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    margin: 0 0 1rem 0.5rem;
+}
+
+.description span {
+    margin-right: 0.5rem;
+}
+
+/* =================================================================================================================
+
+Comment-Section
+
+====================================================================================================================
+ */
+
+.comment_info {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 1rem 0.5rem;
+}
+
+.show_comments {
+    margin-bottom: 1rem;
+    color: #888;
+}
+
+.posted_comments {
+    display: flex;
+    flex-direction: column;
+}
+
+#add_comments {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+.timeline {
+    font-size: 0.75rem;
+}
+
+.post_comment {
+    min-height: 3rem;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #888;
+}
+
+.post_comment_left {
+    display: flex;
+    align-items: center;
+    margin-left: 0.5rem;
+}
+
+.post_comment_left img {
+    margin-right: 0.5rem;
+}
+
+.post_comment_left input {
+    border: none;
+    height: 1rem;
+    font-size: 1rem;
+    width: 100%;
+}
+
+.post_comment_right {
+    display: flex;
+    align-items: center;
+    padding-right: 0.5rem;
+}
+
+.post_comment_right button {
+    font-size: 0.75rem;
+    text-decoration: none;
+    opacity: 0.5;
+    background-color: transparent;
+}
+
+/* =================================================================================================================
+
+Sidebar
+
+====================================================================================================================
+ */
+.sidebar {
+    max-width: 31.25rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.sidebar a {
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+
+.user_info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5rem 0 1.5rem 0;
+}
+
+.profile_pic {
+    width: 4rem;
+    height: 4rem;
+    background-image: url(./img/profile_pic.jpg);
+    border-radius: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-left: 0.5rem;
+}
+
+.username {
+    display: flex;
+    flex-direction: column;
+}
+
+.username a {
+    text-decoration: none;
+    color: #000;
+    margin-bottom: 0.25rem;
+    font-size: 1rem;
+}
+
+.username span {
+    color: #888;
+}
+
+.recommendation {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    color: #888;
+}
+
+.recommendation a {
+    color: #000;
+}
+
+.suggestion {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0.5rem 0.5rem 1rem 0.5rem;
+}
+
+.suggestion_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.suggestion_img img {
+    height: 3rem;
+    width: 3rem;
+    border: 2px solid #f4359e;
+    border-radius: 100%;
+    object-fit: contain;
+    margin-right: 0.5rem;
+}
+
+.suggestion_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-right: 3rem;
+}
+
+.suggestion_info a {
+    font-size: 1rem;
+    color: #000;
+}
+
+.suggestion_info a:hover {
+    text-decoration: underline;
+}
+
+.follow_invitation a {
+    opacity: 0.75;
+}
+
+.span_info {
+    font-size: 0.75rem;
+    color: #888;
+}
+
+.footer a {
+    color: #888;
+}
+
+.footer li {
+    display: inline;
+}
+
+/* =================================================================================================================
+
+Stylesheet für copyright.html
+
+====================================================================================================================
+ */
+
+.copyright {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+}
+
+/* =================================================================================================================
+
+Mobile view
+
+====================================================================================================================
+ */
+
+@media (max-width: 65.625em) {
+
+    header input {
+        width: 10rem;
+    }
+}
+
+@media (max-width: 56.25em) {
+
+    header input {
+        display:
+            none;
+    }
+}
+
+@media (max-width: 47em) {
+
+    header {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 37.5em) {
+    /* #content {
+        margin-right: 1rem;
+    } */
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .user_info {
+        display: none;
+    }
+
+    .recommendation {
+        display: none;
+    }
+
+    #follow_suggestion {
+        display: none;
+    }
+
+    .footer {
+        text-align: start;
+    }
+
+}
+
+@media (max-width: 25em) {
+
+    #content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 15.5rem;
+        margin-left: 0.5rem;
+        margin-right: 0.5rem;
+    }
+
+  
+
+    .user_info {
+        display: none;
+    }
+
+    .recommendation {
+        display: none;
+    }
+
+    #follow_suggestion {
+        display: none;
+    }
+
+    .footer {
+        text-align: start;
+    }
+
+}
+
+@media (max-width: 20em) {
+
+    h1 {
+        font-size: 2.25rem !important;
+    }
+}

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake-a-gram</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="./img/icons/instagram.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+
+<body onload="render()">
+
+    <header>
+        <h1>Fake-a-gram</h1>
+        <input type="text" placeholder="Suchen">
+        <nav>
+            <a href="#"><img src="./img/icons/home.png"></a>
+            <a href="#"><img src="./img/icons/direct-message.png"></a>
+            <a href="#"><img src="./img/icons/plus.png"></a>
+            <a href="#"><img src="./img/icons/kompass.png"></a>
+            <a href="#"><img src="./img/icons/heart.png"></a>
+            <a href="#"><img class="header_profile" src="img/profile_pic.jpg"></a>
+
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- 
+        ================================================================================================================================
+
+                                         #### Content ####
+    
+        ================================================================================================================================ 
+        -->
+
+
+        <section id="content">
+
+        </section>
+
+        <!-- 
+        ================================================================================================================================
+
+                                         #### Sidebar ####
+    
+        ================================================================================================================================ 
+        -->
+
+        <section class="sidebar">
+            <div class="user_info">
+                <a href="#">
+                    <div class="profile_pic"></div>
+                </a>
+                <div class="username">
+                    <a href="#profil">markmars1980</a>
+                    <span>Mark Mars</span>
+                </div>
+                <a href="#">Wechseln</a>
+            </div>
+            <div class="recommendation">
+                <span>Vorschläge für dich</span>
+                <a href="#">Alle ansehen</a>
+            </div>
+            <div id="follow_suggestion"></div>
+
+            <div class="footer">
+                <div class="footer_list1">
+                    <ul>
+                        <li><a href="#">Info</a></li>
+                        <li><a href="#">Hilfe</a></li>
+                        <li><a href="#">Presse</a></li>
+                        <li><a href="#">API</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="copyright.html" target="_blank">Datenschutzrichtlinie</a></li>
+                    </ul>
+                </div>
+                <div class="footer_list2">
+                    <ul>
+                        <li><a href="#">Nutzungsbedingungen</a></li>
+                        <li><a href="#">Standorte</a></li>
+                        <li><a href="#">Sprache</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="main.js"></script>
+    <script src="html-template.js"></script>
+</body>
+
+</html>
